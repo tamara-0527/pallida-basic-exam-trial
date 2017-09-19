@@ -7,14 +7,15 @@
 list_of_number = [1, 2, 3, 6, 8, 9, 11]
 odd_number = []
 
-#def odd_filter(odd_number):
-number = 0 
-for i in list_of_number:
-    if number % 2 != 0:
-        odd_number.append(i)
-    number += 1
-print(odd_number)
-#print(odd_filter(odd_number))          
+def odd_filter():
+    number = 0 
+    for i in list_of_number:
+        if not i % 2 == 0:
+            odd_number.append(i)
+        i += 1
+    print(odd_number)
+
+odd_filter()          
 
 # L = [1, 2, 3, 4, 5, 6, 7]
 # li = []
