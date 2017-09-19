@@ -33,4 +33,6 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
-[add your answer here]
+You can use id in one code block only once, but class you can use more.
+Both of them you can use that to specialize some element.
+You can use id for one element, but the class you can use for more elements in a block or in other block too.
